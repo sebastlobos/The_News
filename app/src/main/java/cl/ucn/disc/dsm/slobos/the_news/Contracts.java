@@ -19,4 +19,5 @@ public interface Contracts {
 List<News> retrieveNews();
 
 
+    List<News> retrieveNews(int i);
 }
