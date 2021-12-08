@@ -1,4 +1,4 @@
-package cl.ucn.disc.dsm.slobos.the_news;
+package cl.ucn.disc.dsm.slobos.the_news.model;
 
 import net.openhft.hashing.LongHashFunction;
 
@@ -91,7 +91,8 @@ import lombok.Getter;
      */
     public News(final String title, final String source, final String author,
                 final String url, final String urlImage,
-                final String description, final String content, final ZonedDateTime publishedAt, LongHashFunction longHashFunction) {
+                final String description, final String content, final ZonedDateTime publishedAt,
+                LongHashFunction longHashFunction) {
         //title
         if ( title == null  || title.length() < 2){
             throw new IllegalArgumentException("Title required");

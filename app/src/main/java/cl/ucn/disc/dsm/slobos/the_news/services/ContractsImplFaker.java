@@ -1,4 +1,4 @@
-package cl.ucn.disc.dsm.slobos.the_news;
+package cl.ucn.disc.dsm.slobos.the_news.services;
 
 import android.os.Build;
 
@@ -6,12 +6,13 @@ import androidx.annotation.RequiresApi;
 
 import com.github.javafaker.Faker;
 
-import org.jetbrains.annotations.Contract;
-
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.List;
+
+import cl.ucn.disc.dsm.slobos.the_news.model.News;
+import cl.ucn.disc.dsm.slobos.the_news.services.Contracts;
 
 /**
  * Contract Implementation of news With Faker

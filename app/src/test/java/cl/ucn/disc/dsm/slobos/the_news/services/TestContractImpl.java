@@ -1,10 +1,14 @@
-package cl.ucn.disc.dsm.slobos.the_news;
+package cl.ucn.disc.dsm.slobos.the_news.services;
 
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
+
+import cl.ucn.disc.dsm.slobos.the_news.model.News;
+import cl.ucn.disc.dsm.slobos.the_news.services.Contracts;
+import cl.ucn.disc.dsm.slobos.the_news.services.ContractsImplFaker;
 
 /**
  * Test of the News Project

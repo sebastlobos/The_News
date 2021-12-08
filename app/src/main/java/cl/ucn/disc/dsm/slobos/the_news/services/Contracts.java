@@ -1,6 +1,8 @@
-package cl.ucn.disc.dsm.slobos.the_news;
+package cl.ucn.disc.dsm.slobos.the_news.services;
 
 import java.util.List;
+
+import cl.ucn.disc.dsm.slobos.the_news.model.News;
 
 /**
  * The contracts of the News Project
