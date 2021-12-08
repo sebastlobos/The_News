@@ -135,8 +135,10 @@ import lombok.Getter;
 
     }
 
-    public News(String name, String name1, String name2, String url, String url1, String quote, int length, ZonedDateTime now) {
+    public News(String name, String name1, String name2, String url, String url1, String quote, String length, ZonedDateTime now) {
     }
+
+
 }
 
 
